@@ -1341,7 +1341,7 @@ a{
     position: relative;
     transition: var(--main-transition);
 }
-.pricing .container .box a:hover{
+.pricing .container .box:hover a{
     color:white;
 }
 .pricing .container .box a::before{
@@ -1355,7 +1355,7 @@ a{
     transition: var(--main-transition);
     z-index: -1;
 }
-.pricing .container .box a:hover::before{
+.pricing .container .box:hover a::before{
     height: 100%;
 }
 /* End Pricing */
